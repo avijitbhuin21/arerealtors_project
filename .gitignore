@@ -24,3 +24,9 @@ dist-ssr
 
 temp
 .env
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel*

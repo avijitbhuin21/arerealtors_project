@@ -1,0 +1,106 @@
+export const testimonials: Array<{
+  name: string;
+  location: string;
+  text: string;
+  image: string;
+  role: string | null;
+}> = [
+  {
+    name: "Emily R.",
+    location: "Austin, Texas",
+    text: "Selling a house is stressful, but AceRealtors made it easy. Got matched with a top agent in Austin and saved on commission without negotiation. Couldn't be happier!",
+    image:
+      "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?auto=format&fit=crop&q=80&w=400&h=400",
+    role: null,
+  },
+  {
+    name: "James & Olivia W.",
+    location: "Miami, Florida",
+    text: "AceRealtors took care of everything. They hooked us up with an amazing realtor in Miami and got us a lower commission. The whole process was smooth and stress-free!",
+    image: "/WhatsApp Image 2025-03-27 at 22.35.58_a6188f81.jpg",
+    role: null,
+  },
+  {
+    name: "Sarah M.",
+    location: "Denver, Colorado",
+    text: "Found a great realtor through AceRealtors who knew the Denver market inside and out. Paid way less in commission than expected. Totally worth it!",
+    image:
+      "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=400&h=400",
+    role: null,
+  },
+  {
+    name: "David & Amanda L.",
+    location: "Los Angeles, California",
+    text: "AceRealtors connected us with one of L.A.'s best agents. Got multiple offers within weeks and saved on commission. The marketing was top-notch!",
+    image: "/WhatsApp Image 2025-03-27 at 22.35.39_5596e662.jpg",
+    role: null,
+  },
+  {
+    name: "Jessica T.",
+    location: "Chicago, Illinois",
+    text: "Took the quiz, got matched with a great agent, and sold my house fast. No stress, no hassle—just super easy!",
+    image:
+      "https://media.istockphoto.com/id/1486674561/photo/young-woman-taking-a-selfie.webp?a=1&b=1&s=612x612&w=0&k=20&c=Cnf47gdBz2fpvF-bwegQUxTJl54dJGmc3qhiJJ1UE0o=",
+    role: null,
+  },
+  {
+    name: "Mark & Emily S.",
+    location: "Atlanta, Georgia",
+    text: "Quick quiz, great agent match, and smooth selling process. The commission savings were a nice surprise. Would definitely use AceRealtors again!",
+    image: "/WhatsApp Image 2025-03-27 at 22.32.38_1b1c7df0.jpg",
+    role: null,
+  },
+];
+
+export const states = [
+  "alabama",
+  "alaska",
+  "arizona",
+  "arkansas",
+  "california",
+  "colorado",
+  "connecticut",
+  "delaware",
+  "florida",
+  "georgia",
+  "hawaii",
+  "idaho",
+  "illinois",
+  "indiana",
+  "iowa",
+  "kansas",
+  "kentucky",
+  "louisiana",
+  "maine",
+  "maryland",
+  "massachusetts",
+  "michigan",
+  "minnesota",
+  "mississippi",
+  "missouri",
+  "montana",
+  "nebraska",
+  "nevada",
+  "new hampshire",
+  "new jersey",
+  "new mexico",
+  "new york",
+  "north carolina",
+  "north dakota",
+  "ohio",
+  "oklahoma",
+  "oregon",
+  "pennsylvania",
+  "rhode island",
+  "south carolina",
+  "south dakota",
+  "tennessee",
+  "texas",
+  "utah",
+  "vermont",
+  "virginia",
+  "washington",
+  "west virginia",
+  "wisconsin",
+  "wyoming",
+];
